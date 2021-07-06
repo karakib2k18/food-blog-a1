@@ -21,7 +21,7 @@ header {
 }
 
 header .menubar {
-  margin-top: 15px;
+  margin-top: 20px;
 }
 header ul li {
   list-style: none;
@@ -40,14 +40,18 @@ header ul li a {
   color: black;
   padding: 0px 30px;
 }
+header ul li a:hover {
+color: rgb(0, 38, 255);
+}
 
 /* first section start */
 .banner-top {
   display: flex;
-  background-image: url(../images/shapes/7.png);
+  background-image: url(../images/shapes/Frame\ 58.jpg);
+  /* background-image: url(../images/shapes/7.png); */
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
 }
 .half-width {
   width: 50%;
@@ -76,8 +80,9 @@ header ul li a {
   font-weight: 600;
   font-size: 20px;
   background-image: linear-gradient(to right, #fb9149, #fc743e);
-  padding: 10px 20px;
+  padding: 15px 25px;
   border-radius: 20px;
+  color: white;
 }
 
 .half-width img {
@@ -87,7 +92,8 @@ header ul li a {
 /* second section start */
 .banner-about {
   display: flex;
-  background-image: url(../images/shapes/Frame\ 58.jpg);
+  background-image: url(../images/shapes/7.png);
+  /* background-image: url(../images/shapes/Frame\ 58.jpg); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -105,8 +111,7 @@ header ul li a {
 }
 
 .banner-about .pad-marg {
-  margin: 130px 110px 0px 0px;
-}
+    margin: 130px 120px 0px 0px;}
 
 /* 3rd secttion banner blog start here */
 
@@ -158,13 +163,38 @@ header ul li a {
 .recipes-blog {
   margin: 50px 0px;
 }
+/* visitor sectio start */
+
+.visitor-blog {
+  display: flex;
+  justify-content: center;
+}
+
+.visitor-details {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 150px;
+  padding: 10px 14px;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  border-radius: 20px;
+  width: 100%;
+}
+.visitor-details .card h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 17px 0px 10px 0px;
+}
+.visitor-details .card p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
 
 /* contacdt form start here */
 
-/* .contact-form form {
-  margin: 10px 700px;
-} */
-.contact-form{
+.contact-form {
   padding: 50px 0px;
   display: flex;
   background-image: url(../images/shapes/7.png);
@@ -172,14 +202,8 @@ header ul li a {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.contact-gap{
-  width: 30%;
-}
-letstalk {
-  background-color: #eee;
-  padding-top: 50px;
-  padding-bottom: 90px;
-  text-align: center;
+.contact-gap {
+  width: 35%;
 }
 
 .contact-form h1 {
@@ -218,16 +242,9 @@ letstalk {
   padding: 17px;
   background-color: transparent;
   border: 1px solid black;
-margin: 10px 10px 30px 10px;
+  margin: 10px 10px 30px 10px;
 }
-.contact-form .order-button {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  background-image: linear-gradient(to right, #fb9149, #fc743e);
-  padding: 10px 20px;
-  border-radius: 20px;
-}
+
 .contact-form h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -239,6 +256,15 @@ margin: 10px 10px 30px 10px;
   font-weight: 500;
   font-size: 22px;
   margin: 40px 0px;
+}
+.contact-form .order-button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  background-image: linear-gradient(to right, #fb9149, #fc743e);
+  padding: 15px 25px;
+  border-radius: 20px;
+  color: white;
 }
 /* footer start here */
 
@@ -261,5 +287,7 @@ footer p {
   font-weight: 400;
   font-size: 18px;
   padding-bottom: 40px;
-  color: wheat;
+  color: white;
 }
+
+/* all done */
